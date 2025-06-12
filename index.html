@@ -1,0 +1,344 @@
+
+<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+<meta charset="utf-8"/>
+<title>Услуги</title>
+<style>
+    @media (max-width: 600px) {
+      .grid {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+    body {
+    background-color: #fdfdfd;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 97%;
+    }
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .card {
+      width: 100%;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      cursor: pointer;
+    }
+    .card img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+    .info {
+      padding: 10px;
+    }
+    .title {
+      background-color: rgb(255, 255, 255);
+      color: #000000;
+      margin: 5px 0;
+      font-size: 60px;
+    }
+    .price {
+      background-color: rgb(255, 255, 255);
+      color: #000000;
+      font-size: 70px;
+      font-weight: bold;
+    }
+    .description {
+      display: none;
+      padding: 10px;
+      color: #666;
+      background: #fafafa;
+      font-size: 70px;
+    }
+    .main-title {
+      color: #ffffff;
+      text-align: center;
+      font-weight: bold;
+      font-size: 70px;
+      margin-bottom: 20px;
+    }
+    .vk-button {
+  position: fixed;
+  top: 20px;
+  right: 40px;
+  z-index: 1000;
+    }
+
+    .vk-button:hover {
+  background-color: #3b5d82;
+    }
+    .Lego-City {
+      text-align: center;
+      font-weight: bold;
+      font-size: 100px;
+      margin-bottom: 20px;
+      font-family: 'Courier New', Courier, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .nav-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #4caf50;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .nav-button:hover {
+      background: #3a9e42;
+    }
+    .buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+  }
+  .image-button img {
+    width: 395px;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+  }
+  .image-button img:hover {
+    transform: scale(1.05);
+  }
+  </style>
+</head>
+<body>
+<a class="vk-button" href="https://t.me/tardis_mine" target="_blank">
+<img src="images/tg.png" style="width: 250px; height: 230px;;max-width: 100%; height: auto; display: block; margin: auto;"/></a>
+<div class="buttons-container">
+  <a class="image-button" href="index.html">
+      <img alt="Перейти" src="images/gam.png"/>
+  </a>
+  <a class="image-button" href="yslugi.html">
+      <img alt="Перейти" src="images/program.png"/>
+  </a>
+  <a class="image-button" href="hack.html">
+      <img alt="Перейти" src="images/hacker.png"/>
+  </a>
+</div>
+
+<style>
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+.image-button img {
+    width: 395px;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+}
+.image-button img:hover {
+    transform: scale(1.05);
+}
+.game {
+  color: rgb(255, 255, 255);
+}
+</style>
+</div>
+<h1 class="main-title">Услуги по играм</h1>
+<div class="grid">
+  <img src="images/steam.png"/>
+  <div class="card">
+    <img alt="Пиньята" src="images/games/steam_popoln.png"/>
+    <div class="info">
+    <div class="title">Пополнение кошелька Steam</div>
+    <div class="price">? ₽ ⬇️</div>
+    </div>
+    <div class="description">Самое дешёвое пополнение кошелька Steam</div>
+    </div>
+    <div class="card">
+      <img alt="Пиньята" src="images/games/steam_dopoln.png"/>
+      <div class="info">
+      <div class="title">Покупка игр/дополнений в Steam</div>
+      <div class="price">? ₽ ⬇️</div>
+      </div>
+      <div class="description">Куплю всё что вам надо в Steam</div>
+      </div>
+      <img src="images/ps.png"/>
+      <div class="card">
+        <img alt="Пиньята" src="images/games/ps_popoln.png"/>
+        <div class="info">
+        <div class="title">Пополнение кошелька PS Store</div>
+        <div class="price">? ₽ ⬇️</div>
+        </div>
+        <div class="description">Самое дешёвое пополнение кошелька PS Store</div>
+        </div>
+      <div class="card">
+        <img alt="Пиньята" src="images/games/ps_dopoln.png"/>
+        <div class="info">
+        <div class="title">Покупка игр/дополнений/пс плюс в PS Store</div>
+        <div class="price">? ₽ ⬇️</div>
+        </div>
+        <div class="description">Куплю всё что вам надо в PS Store</div>
+        </div>
+        <img src="images/minecraft.png"/>
+<div class="card">
+<img alt="Пиньята" src="images/games/mine-prokach.png"/>
+<div class="info">
+<div class="title">Прокачка на любом сервере майнкрафт</div>
+<div class="price">? ₽ ⬇️</div>
+</div>
+<div class="description">Прокачаю вас на любом сервере за определённую цену(цена, как и время прокачки зависит от сервера)</div>
+</div>
+<div class="card">
+<img alt="Шаробум шоу" src="images/games/modi.png"/>
+<div class="info">
+<div class="title">Научу делать моды/ресурспаки</div>
+<div class="price">1 000 ₽ ⬇️</div>
+</div>
+<div class="description">Давно искали нужный мод/ресурспак? После этого обучения вы сможете создавать собственные моды по своему жеданию и удивлять друзей!</div>
+</div>
+<div class="card">
+<img alt="Неоновое шоу" src="images/games/pvp.png"/>
+<div class="info">
+<div class="title">Научу пвп</div>
+<div class="price">500 ₽ ⬇️</div>
+</div>
+<div class="description">После этого обучения вы сможете пвпзаться лучше всех.</div>
+</div>
+<div class="card">
+    <img alt="Неоновое шоу" src="images/games/licensia.png"/>
+    <div class="info">
+    <div class="title">Лицензия майнкрафт</div>
+    <div class="price">1 600 ₽ ⬇️</div>
+    </div>
+    <div class="description">Здесь вы сможете купить самую лучшую лицензию? Тогда пишите нам!</div>
+    </div>
+    <div class="card">
+        <img alt="Неоновое шоу" src="images/games/mine-cheat.png"/>
+        <div class="info">
+        <div class="title">Читы майнкрафт</div>
+        <div class="price">? ₽ ⬇️</div>
+        </div>
+        <div class="description">Хотите купить лучшие читы на майнкрафт? Тогда вы попали куда надо, мы подберём под ваш бюджет и желания самые лучшие читы!</div>
+        </div>
+        <img src="images/fortnite.png"/>
+<div class="card">
+<img alt="Поролоновое шоу" src="images/games/fort-stroit.png"/>
+<div class="info">
+<div class="title">Научу строится как профи</div>
+<div class="price">1 000 ₽ ⬇️</div>
+</div>
+<div class="description">После этого обучения вы сможете строится как профи и застроивать всех ваших противников!</div>
+</div>
+<div class="card">
+<img alt="Мастер-классы" src="images/games/fort-acc.png"/>
+<div class="info">
+<div class="title">Подберу для вас аккаунт</div>
+<div class="price">? ₽ ⬇️</div>
+</div>
+<div class="description"><p>Я смогу подобрать вам идеальный аккаунт. Как это проходит? Вы говорите ваши предпочтения и бюджет а я ищу для вас идеальный аккаунт!</p></div>
+</div>
+</div>
+<div class="card">
+<img alt="Серебряное шоу" src="images/games/vbacks.png"/>
+<div class="info">
+<div class="title">Покупка вбаксов</div>
+<div class="price">? ₽ ⬇️</div>
+</div>
+<div class="description">Куплю вам вбаксы/пасс/скины по самой низкой цене</div>
+</div>
+<img src="images/brawlstars.png"/>
+<div class="card">
+<img alt="Золотое шоу" src="images/games/fort-prokach.png"/>
+<div class="info">
+<div class="title">Прокачка аккаунта</div>
+<div class="price">? ₽ ⬇️</div>
+</div>
+<div class="description">Прокачаю ваш аккаунт на любой ранг/кубки/персонажей!</div>
+</div>
+<div class="card">
+<img alt="Лента-шоу" src="images/games/brawl-acc.png"/>
+<div class="info">
+<div class="title">Покупка аккунта</div>
+<div class="price">? ₽ ⬇️</div>
+</div>
+<div class="description">Я смогу подобрать вам идеальный аккаунт. Как это проходит? Вы говорите ваши предпочтения и бюджет а я ищу для вас идеальный аккаунт!</div>
+</div>
+<div class="card">
+<img alt="Серебряное шоу" src="images/games/brawl-gem.png"/>
+<div class="info">
+<div class="title">Покупка гемов/пасса</div>
+<div class="price">? ₽ ⬇️</div>
+</div>
+<div class="description">Куплю вам гемы/пасс по самой низкой цене</div>
+</div>
+<img src="images/roblox.png"/>
+<div class="card">
+<img alt="Игрушки ручной работы" src="images/games/cheat.png"/>
+<div class="info">
+<div class="title">Покупка читов</div>
+<div class="price">? ₽ ⬇️</div>
+</div>
+<div class="description">Подберу для вас читы для любой игры и любой цены!</div>
+</div>
+<div class="card">
+<img alt="Фотограф" src="images/games/brawl-acc.png"/>
+<div class="info">
+<div class="title">Покупка аккаунта</div>
+<div class="price">? ₽ ⬇️</div>
+</div>
+<div class="description">Я смогу подобрать вам идеальный аккаунт. Как это проходит? Вы говорите ваши предпочтения и бюджет а я ищу для вас идеальный аккаунт!</div>
+</div>
+<div class="card">
+<img alt="Шоу мыльные пузыри" src="images/games/robux.jpg"/>
+<div class="info">  
+<div class="title">Покупка робуксов</div>
+<div class="price">? ₽ ⬇️</div>
+</div>
+  <div class="description">Хотите купить робуксы по самой низкой цене? Тогда вам к нам!</div>
+</div>
+<div class="card">
+<img alt="Бьюти бар" src="images/games/sozd_games.jpg"/>
+<div class="info">
+<div class="title">Создание игр</div>
+<div class="price">1 000 ₽ ⬇️</div>
+</div>
+<div class="description">Научу вас создавать игры в Roblox с которых вы в будущем сможете зарабатывать!</div>
+</div>
+</div>
+<script>
+  const isMobile = /Mobi|Android/i.test(navigator.userAgent);
+  const body = document.body;
+
+  if (isMobile) {
+    body.style.backgroundImage = "url('images/backgroundtel2.jpg')";
+  } else {
+    body.style.backgroundImage = "url('images/background1.jpg')";
+  }
+
+  body.style.backgroundSize = "cover";
+  body.style.backgroundRepeat = "no-repeat";
+  body.style.backgroundPosition = "center top";
+  body.style.minHeight = "100vh";
+  body.style.margin = "0";
+    document.querySelectorAll('.card').forEach(card => {
+      card.addEventListener('click', () => {
+        const desc = card.querySelector('.description');
+        desc.style.display = desc.style.display === 'block' ? 'none' : 'block';
+      });
+    });
+  </script>
+</body>
+</html>
+    
